@@ -1,1 +1,5 @@
-
+CREATE CATALOG IF NOT EXISTS retail;
+CREATE SCHEMA IF NOT EXISTS retail.bronze;
+CREATE SCHEMA IF NOT EXISTS retail.silver;
+CREATE SCHEMA IF NOT EXISTS retail.gold;
+CREATE VOLUME IF NOT EXISTS retail.bronze.raw_landing;
